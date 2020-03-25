@@ -10,10 +10,11 @@
  https://rlp60sprib.execute-api.us-east-1.amazonaws.com
 
  -- No API Key Required
+ 
  -- Allow Control Allow Origin: *  // header added in the response. 
 
 # Endpoints 
- ## GET /daily_reports/latest - 
+ ## GET /daily_reports/latest 
 
     https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
 
@@ -35,7 +36,9 @@ P.S. I throttled my AWS API Gateway limits, just to make sure I dont get a huge 
 
 # Thanks 
  Johns Hopkins CSSE - https://github.com/CSSEGISandData/COVID-19
+ 
  Github Content - https://github.com/doowb/github-content
+ 
  CSVTOJSON - https://github.com/Keyang/node-csvtojson
 
 
