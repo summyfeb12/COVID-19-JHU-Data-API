@@ -36,7 +36,9 @@ P.S. I throttled my AWS API Gateway limits, just to make sure I dont get a huge 
 
 # Thanks 
  Johns Hopkins CSSE - https://github.com/CSSEGISandData/COVID-19
+ 
  Github Content - https://github.com/doowb/github-content
+ 
  CSVTOJSON - https://github.com/Keyang/node-csvtojson
 
 
