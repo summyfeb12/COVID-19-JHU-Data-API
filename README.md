@@ -2,9 +2,9 @@
  JSON Wrapper API around the COVID-19 data from Johns Hopkins CSSE https://github.com/CSSEGISandData/COVID-19 ,which is an aggregated data source from multiple sources.This is the data that powers the very famous visualization: https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6. Data is maintained and distributed in a GitHub repository via csv files, the files are updated daily, for the end of the day updates and whenever there are changes to the data or there are any corrections.
 
 # What does it do ?
- Who ever is building any applications, they have to update their app's csv whenever Johns Hopkins CSSE updates their repository, what I built is a an API endpoint that gets the file directly from JHU CSSE's Github and converts that csv into a json and serves it over REST API, whenever the request is made. I am not storing the data anywhere, not even caching the files because I want it to be up to date with JHU CSSE data whenever they chose to update the only components I am using are AWS API Gateway and AWS Lambda. I also attached the Lambda code in case you want to deploy it on your own aws account.
+ Whoever is building any applications, they have to synchronize their app's csv files with Johns Hopkins CSSE's updates to the repository, also csv is not a preferred option when it comes to webapps. What I built is a an API endpoint that gets the file directly from JHU CSSE's Github and converts that csv into a json and serves it over REST API, whenever the request is made. I am not storing the data anywhere, not even caching the files because I want it to be up to date with JHU CSSE data whenever they chose to update the only components I am using are AWS API Gateway and AWS Lambda. I also attached the Lambda code in case you want to deploy it on your own aws account.
 
- My API makes it easy for people who are building client-side applications, not to worry about getting the latest data and instead focus on building the app/visualization of their choice.
+ My API makes it easy for people who are building web applications to consume data in JSON format, not to worry about getting the latest data and instead focus on building the app/visualization of their choice.
 
 # API URL 
  https://rlp60sprib.execute-api.us-east-1.amazonaws.com
