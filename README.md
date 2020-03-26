@@ -31,6 +31,9 @@
 
     https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
 
+## Example 
+    https://rlp60sprib.execute-api.us-east-1.amazonaws.com/daily_reports/latest
+
 
 P.S. I throttled my AWS API Gateway limits, just to make sure I dont get a huge bill from AWS, please do not abuse this. Any pledges for AWS credits are welcome , wont use them unless I see a ridiculous bill.
 
