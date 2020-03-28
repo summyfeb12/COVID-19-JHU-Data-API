@@ -7,32 +7,32 @@
  My API makes it easy for people who are building web applications to consume data in JSON format, not to worry about getting the latest data and instead focus on building the app/visualization of their choice.
 
 # API URL 
- https://rlp60sprib.execute-api.us-east-1.amazonaws.com
+    https://rlp60sprib.execute-api.us-east-1.amazonaws.com
 
- -- No API Key Required
+     -- No API Key Required
  
- -- Allow Control Allow Origin: *  // header added in the response. 
+     -- Allow Control Allow Origin: *  // header added in the response. 
 
 # Endpoints 
  ## GET /daily_reports/latest 
 
-    https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
+   https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
 
  ## GET /daily_reports/date?date=mm-dd-yyyy
 
-    https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
+   https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
 
  ## GET /timeseries/confirmed
 
-    https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv
+   https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv
 
 
  ## GET /timeseries/deaths
 
-    https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
+   https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
 
 ## Example 
-    https://rlp60sprib.execute-api.us-east-1.amazonaws.com/daily_reports/latest
+   https://rlp60sprib.execute-api.us-east-1.amazonaws.com/daily_reports/latest
 
 
 P.S. I throttled my AWS API Gateway limits, just to make sure I dont get a huge bill from AWS, please do not abuse this. Any pledges for AWS credits are welcome , wont use them unless I see a ridiculous bill.
