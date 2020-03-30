@@ -31,11 +31,15 @@
 
    https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
 
-## Example 
+ ## Example 
    https://rlp60sprib.execute-api.us-east-1.amazonaws.com/daily_reports/latest
+   
+# Apps built using this API
+   [Covid SMS](https://www.covidsms.com) - By [Devan Sood](https://devansood.com/projects.html)
 
 
-P.S. I throttled my AWS API Gateway limits, just to make sure I dont get a huge bill from AWS, please do not abuse this. Any pledges for AWS credits are welcome , wont use them unless I see a ridiculous bill.
+# Disclaimer 
+ I throttled my AWS API Gateway limits, just to make sure I dont get a huge bill from AWS, please do not abuse this. Any  pledges for AWS credits are welcome , wont use them unless I see a ridiculous bill. JHU CSSE distributes this data under a non commercial license and the terms of use of this API reciprocates the terms of use of [JHU data repository](https://github.com/CSSEGISandData/COVID-19). 
 
 # Thanks 
  Johns Hopkins CSSE - https://github.com/CSSEGISandData/COVID-19
