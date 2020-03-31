@@ -36,6 +36,7 @@
    
 # Apps built using this API
    [Covid SMS](https://www.covidsms.com) - By [Devan Sood](https://devansood.com/projects.html)
+   [StaySafe](https://devpost.com/software/stayhome) - By [Eduardo Morales](https://devpost.com/software/stayhome)
 
 
 # Disclaimer 
